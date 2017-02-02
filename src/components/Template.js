@@ -1,11 +1,8 @@
-import '../assets/stylesheets/base.scss';
 import React, { Component } from 'react';
-import Template from './Template';
 
-export default class App extends Component {
+export default class Template extends Component {
   constructor(props){
     super(props);
-    
     this.state={
 
     }
@@ -13,7 +10,7 @@ export default class App extends Component {
 
   render() {
     return(
-      <Template />
+      <h1>Hello world</h1>
     )
   }
 };
